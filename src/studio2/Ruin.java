@@ -21,10 +21,10 @@ public class Ruin {
 			double chance = Math.random() * 100;
 			if (chance <= winChance) {
 				money++;
-				System.out.println("Today is a win. Balance is $" + money);
+				System.out.println("This play is a win. Balance is $" + money);
 			} else {
 				money--;
-				System.out.println("Today is a loss. Balance is $" + money);
+				System.out.println("This play is a loss. Balance is $" + money);
 			}
 		}
 		if (money == winLimit) {
